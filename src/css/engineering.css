@@ -1,0 +1,10 @@
+.career {
+  margin: 0em 0em;
+}
+
+.career-main img {
+  width: 100%;
+  max-height: 20em;
+  border-radius: 0.5em;
+  object-fit: cover;
+}

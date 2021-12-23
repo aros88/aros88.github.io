@@ -1,0 +1,21 @@
+.sticky-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0;
+  margin: 0 auto;
+  border-top: 1px solid lightgray;
+}
+
+.sticky-content:first-child {
+  border-top: none;
+}
+
+@media (min-width: 750px) {
+  .sticky-content {
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 100%;
+  }
+}

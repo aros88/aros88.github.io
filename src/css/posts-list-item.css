@@ -1,0 +1,25 @@
+.posts-list-item {
+  margin-bottom: 1em;
+  border-bottom: 1px solid lightgrey;
+}
+
+.posts-list-item:last-child {
+  border-bottom: none;
+}
+
+.posts-list-item a {
+  text-decoration: none;
+}
+
+.posts-list-item-card {
+  color: lightslategray;
+  padding: 1em 0em;
+}
+
+.posts-list-item-card h4 {
+  margin-top: 0;
+}
+
+.posts-list-item-card span {
+  font-size: 0.8rem;
+}
