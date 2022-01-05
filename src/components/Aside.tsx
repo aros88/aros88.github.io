@@ -20,7 +20,7 @@ const Aside: React.FC = (props) => {
       </div>
       <div className="aside-footer">
         <p>If you enjoyed your stay and would like to make a donation (thank you!), you can buy me a cup of coffee:</p>
-        <a href="#" target="_blank">
+        <a href="https://www.buymeacoffee.com/aros88" target="_blank">
           <SiBuymeacoffee title="buy me a coffee" />
         </a>
       </div>

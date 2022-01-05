@@ -23,11 +23,14 @@ const Engineering: React.FC = () => {
           </p>
           <p>
             Here you can find my{" "}
-            <a href="#" target="_blank">
+            <a
+              href="https://docs.google.com/document/d/1KsBUzuq1yEyNMH401huHguZ26BNXvFTGhRA0u6Kx8gQ/edit?usp=sharing"
+              target="_blank"
+            >
               CV
             </a>{" "}
             and my{" "}
-            <a href="#" target="_blank">
+            <a href="https://www.linkedin.com/in/drosatom" target="_blank">
               LinkedIn
             </a>
             .

@@ -20,11 +20,11 @@ const DigitalArt: React.FC = (props) => {
           </p>
           <p>
             I am still very new to this, but you can check out my own stuff at{" "}
-            <a href="#" target="_blank">
+            <a href="https://www.instagram.com/paintd88" target="_blank">
               Instagram
             </a>{" "}
             or at{" "}
-            <a href="#" target="_blank">
+            <a href="https://www.artstation.com/aros88" target="_blank">
               ArtStation
             </a>
             .

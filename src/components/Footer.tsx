@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
           Site's source code
         </a>
         <br />
-        <a href="#" target="_blank">
+        <a href="https://www.buymeacoffee.com/aros88" target="_blank">
           buy me a <SiBuymeacoffee title="buy me a coffee" />coffee
         </a>
       </div>
