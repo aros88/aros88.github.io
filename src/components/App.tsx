@@ -11,18 +11,20 @@ import Sticky from "./Sticky";
 
 const App: React.FC = (props) => {
   return (
-    <div className="container grid">
+    <>
       <Header />
-      <Routes>
-        <Route path="/" element={<Sticky />} />
-        <Route path="/home" element={<Sticky />} />
-        <Route path="/posts" element={<Posts />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/post/:id" element={<MarkdownPost />} />
-      </Routes>
-      <Aside />
+      <div className="container grid">
+        <Routes>
+          <Route path="/" element={<Sticky />} />
+          <Route path="/home" element={<Sticky />} />
+          <Route path="/posts" element={<Posts />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/post/:id" element={<MarkdownPost />} />
+        </Routes>
+        <Aside />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

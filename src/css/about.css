@@ -9,6 +9,10 @@
   font-size: 1.5rem;
 }
 
+.about-info h4 {
+  margin-bottom: 0.5rem;
+}
+
 .about-info-avatar {
   text-align: center;
 }
@@ -60,5 +64,33 @@
     margin-right: 1em;
     margin-bottom: 0.5em;
     float: left;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 450px) {
+  .about-main {
+    width: 100%;
+  }
+
+  .about-main img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .about-description {
+    width: 100%;
+  }
+
+  .about-info {
+    display: block;
+  }
+
+  .about-info-avatar img {
+    width: 25%;
+    margin: 0 auto;
+  }
+
+  .about-info h4 {
+    margin-top: 0.5rem;
   }
 }
