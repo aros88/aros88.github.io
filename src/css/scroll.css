@@ -39,9 +39,3 @@
     opacity: 1;
   }
 }
-
-@media (min-width: 1500px) {
-  .content-scrollable {
-    opacity: 1;
-  }
-}
