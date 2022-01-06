@@ -2,9 +2,12 @@
   "name": "my-website",
   "version": "1.0.0",
   "description": "Personal Website",
+  "homepage": "https://aros88.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test"
   },
   "author": "",
@@ -40,6 +43,7 @@
     "@types/jest": "^27.0.3",
     "@types/node": "^16.11.10",
     "@types/react": "^17.0.37",
-    "@types/react-dom": "^17.0.11"
+    "@types/react-dom": "^17.0.11",
+    "gh-pages": "^3.2.3"
   }
 }
