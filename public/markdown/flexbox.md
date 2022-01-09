@@ -249,6 +249,7 @@
   - [flex-basis](#flex-basis)
   - [align-self](#align-self)
   - [order](#flex-order)
+- [Shorthand properties](#shorthand-properties)
 - [Conclusion](#conclusion)
 
 <div id="introduction"></div>
@@ -1400,6 +1401,31 @@ Lets explore how the flex items behave when the values of the property change.
     </div>
   </div>
 </div>
+
+
+<div id="shorthand-properties"></div>
+
+## Shorthand properties
+
+There are a couple of properties that can help reduce the amount of code that is written by accepting multiple values for other properties combined into one.
+
+- <code>**flex**</code>: not to be confused with <code>**display: flex**</code>, it is a property that combines <code>**flex-grow**</code>, <code>**flex-shrink**</code> and <code>**flex-basis**</code> into a single property declaration. For example:
+
+<pre class="prettyprint lang-css">
+  .flex-item {
+    /* flex-grow: 1, flex-shrink: 2, flex-basis: 50px */
+    flex: 1 2 50px;
+  }
+</pre>
+
+- <code>**flex-flow**</code>: it is a property that combines <code>**flex-wrap**</code> and <code>**flex-direction**</code> into a single property declaration. For example:
+
+<pre class="prettyprint lang-css">
+  .flex-container {
+    /* flex-direction: column, flex-wrap: wrap */
+    flex: column wrap;
+  }
+</pre>
 
 
 <div id="conclusion"></div>
