@@ -1311,7 +1311,7 @@ Given the following code:
   &lt;/div&gt;
 </pre>
 
-Let's explore how the flex items behave with the <code>**flex-grow**</code>.
+Let's explore how the flex items behave with the <code>**order**</code> property applied to them.
 
 <div class="post__flexbox__example-main-container">
   <h1><code>order</code></h1>
