@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
-import rehypeRaw from 'rehype-raw'
+import rehypeRaw from 'rehype-raw';
+
+import "../css/post.css";
 
 const MarkdownPost: React.FC = (props) => {
   const [markdownText, setMarkdownText] = useState("");

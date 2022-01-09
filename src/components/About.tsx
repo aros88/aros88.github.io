@@ -27,7 +27,7 @@ const About: React.FC = (props) => {
           </p>
           <p>
             If you check the{" "}
-            <a href="#" target="_blank">
+            <a href="https://github.com/aros88/aros88.github.io" target="_blank">
               source code
             </a>
             , you will find that it is mostly CSS code that gives life to the
@@ -41,7 +41,7 @@ const About: React.FC = (props) => {
           <p>
             If you liked the website and would like to give a donation (thank
             you!), feel free to{" "}
-            <a href="#" target="_blank">
+            <a href="https://www.buymeacoffee.com/aros88" target="_blank">
               buy me a <SiBuymeacoffee title="buy me a coffee" />
               coffee
             </a>{" "}
