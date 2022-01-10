@@ -18,11 +18,7 @@ const index = (props: PagePostProps) => {
       .then((markdownText) => setMarkdownText(markdownText));
   }, []);
 
-  return (
-    <main className="content container">
-      <MarkdownPost markdownText={markdownText} />
-    </main>
-  );
+  return <MarkdownPost markdownText={markdownText} />;
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {

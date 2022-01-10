@@ -1,11 +1,7 @@
 import About from "../../components/About";
 
 const index = () => {
-  return (
-    <main className="content">
-      <About />
-    </main>
-  );
+  return <About />;
 };
 
 export default index;

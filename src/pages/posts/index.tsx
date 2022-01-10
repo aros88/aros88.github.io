@@ -1,11 +1,7 @@
 import Posts from "../../components/posts/Posts";
 
 const index = () => {
-  return (
-    <main className="content">
-      <Posts />
-    </main>
-  );
+  return <Posts />;
 };
 
 export default index;

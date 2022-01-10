@@ -19,7 +19,9 @@ const Layout: React.FC = (props) => {
       </Head>
       <Header />
       <div className="container grid">
-        {props.children}
+        <main className="content">
+          {props.children}
+        </main>
         <Aside />
       </div>
       <Footer />

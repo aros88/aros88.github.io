@@ -1,11 +1,7 @@
 import Sticky from "../components/Sticky";
 
 const index = () => {
-  return (
-    <main className="content">
-      <Sticky />
-    </main>
-  );
+  return <Sticky />;
 };
 
 export default index;
