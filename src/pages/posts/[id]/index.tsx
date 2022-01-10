@@ -36,7 +36,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const postList: Post[] = posts;
 
   return {
-    fallback: "blocking",
+    fallback: false,
     paths: postList.map((post) => ({
       params: { id: post.markdownFile },
     })),
