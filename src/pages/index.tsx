@@ -1,31 +1,11 @@
-import React from "react";
-import Engineering from "../components/Engineering";
-import Intro from "../components/Intro";
+import Sticky from "../components/Sticky";
 
-import DigitalArt from "../components/DigitalArt";
-import Reading from "../components/Reading";
-import Travel from "../components/Travel";
-
-const Sticky: React.FC = (props) => {
+const index = () => {
   return (
     <main className="content">
-      <div className="sticky-content container">
-        <Intro />
-      </div>
-      <div className="sticky-content container">
-        <Engineering />
-      </div>
-      <div className="sticky-content container">
-        <DigitalArt />
-      </div>
-      <div className="sticky-content container">
-        <Reading />
-      </div>
-      <div className="sticky-content container">
-        <Travel />
-      </div>
+      <Sticky />
     </main>
   );
 };
 
-export default Sticky;
+export default index;

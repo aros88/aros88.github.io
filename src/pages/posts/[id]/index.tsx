@@ -1,33 +1,26 @@
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
+import MarkdownPost from "../../../components/posts/MarkdownPost";
+import { GetStaticProps, GetStaticPaths } from "next";
 import { posts, Post } from "../../../util/posts";
-import { GetStaticProps, GetStaticPaths } from 'next'
+import { useEffect, useState } from "react";
 
-interface MarkdownPostProps {
-  id: string
+interface PagePostProps {
+  postId: string;
 }
 
-const MarkdownPost: React.FC<MarkdownPostProps> = (props : MarkdownPostProps) => {
+const index = (props: PagePostProps) => {
   const [markdownText, setMarkdownText] = useState("");
-  const { id } = props;
+  const { postId } = props;
 
   useEffect(() => {
-    console.log(`${id}`);
-    fetch(`/markdown/${id}`)
+    console.log(`${postId}`);
+    fetch(`/markdown/${postId}`)
       .then((file) => file.text())
       .then((markdownText) => setMarkdownText(markdownText));
   }, []);
 
   return (
     <main className="content container">
-      <article className="post">
-        <ReactMarkdown rehypePlugins={[rehypeRaw]}>
-          {markdownText}
-        </ReactMarkdown>
-      </article>
-      <Link href="/posts">Back to Posts</Link>
+      <MarkdownPost markdownText={markdownText} />
     </main>
   );
 };
@@ -41,16 +34,17 @@ export const getStaticPaths: GetStaticPaths = async () => {
       params: { id: post.markdownFile },
     })),
   };
-}
+};
 
 export const getStaticProps: GetStaticProps = async (context: any) => {
-  const postId : string = context.params.id;
+  const postId: string = context.params.id;
+  console.log(postId);
 
   return {
     props: {
-      id: postId
+      postId: postId,
     },
   };
-}
+};
 
-export default MarkdownPost;
+export default index;

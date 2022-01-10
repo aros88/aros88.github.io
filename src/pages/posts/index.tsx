@@ -1,29 +1,11 @@
-import React from "react";
-import PostsListItem from "../../components/PostsListItem";
-import { posts, Post } from "../../util/posts";
+import Posts from "../../components/posts/Posts";
 
-const Posts: React.FC = (props) => {
+const index = () => {
   return (
     <main className="content">
-      <div className="posts container">
-        <h2>Posts</h2>
-        <div className="posts-main">
-          <ul>
-            {posts.map((post: Post, i: number) => {
-              return (
-                <PostsListItem
-                  key={i}
-                  title={post.title}
-                  description={post.description}
-                  markdownFile={post.markdownFile}
-                />
-              );
-            })}
-          </ul>
-        </div>
-      </div>
+      <Posts />
     </main>
   );
 };
 
-export default Posts;
+export default index;
