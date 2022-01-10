@@ -8,6 +8,7 @@
 
 .footer-main {
   text-align: center;
+  cursor: pointer;
 }
 
 .footer-main span {
@@ -17,7 +18,7 @@
 .footer-main h2 {
   margin: 0;
   font-size: 1.2rem;
-  color: inherit;
+  color: white;
   background: inherit;
   padding: inherit;
 }

@@ -1,10 +1,8 @@
 import React from "react";
 import { SiBuymeacoffee } from "react-icons/si";
-// import src from "../resources/programming.jpeg";
-import "../css/about.css";
-import Avatar from "./Avatar";
-import Links from "./Links";
-import Stack from "./Stack";
+import Avatar from "../../components/Avatar";
+import Links from "../../components/Links";
+import Stack from "../../components/Stack";
 
 const About: React.FC = (props) => {
   return (

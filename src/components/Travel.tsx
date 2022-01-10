@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/travel.css";
 
 const Travel: React.FC = (props) => {
   return (

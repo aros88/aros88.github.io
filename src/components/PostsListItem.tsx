@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "../css/posts-list-item.css";
+import Link from "next/link";
 
 interface PostsListItemProps {
   title: string;
@@ -14,11 +13,11 @@ const PostsListItem: React.FC<PostsListItemProps> = (
   return (
     <div className="posts-list-item">
       <div className="posts-list-item-card">
-        <Link to={{ pathname: `/post/${props.markdownFile}` }}>
+        <Link href={{ pathname: `/posts/${props.markdownFile}` }}>
           <h4>{props.title}</h4>
         </Link>
         <p>{props.description}</p>
-        <Link to={{ pathname: `/post/${props.markdownFile}` }}>
+        <Link href={{ pathname: `/posts/${props.markdownFile}` }}>
           <span>Read more...</span>
         </Link>
       </div>

@@ -1,6 +1,5 @@
 import React from "react";
 // import src from "../resources/programming.jpeg";
-import "../css/engineering.css";
 
 const Engineering: React.FC = () => {
   return (

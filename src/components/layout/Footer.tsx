@@ -1,14 +1,12 @@
 import React from "react";
-import Scroll from "./Scroll";
-import { Link } from "react-router-dom";
-import "../css/footer.css";
+import Link from 'next/link';
 import { SiBuymeacoffee } from "react-icons/si";
 
 const Footer: React.FC = () => {
   return (
     <footer className="footer">
       <div className="footer-main">
-        <Link to="/home">
+        <Link href="/">
           <h2>World of <span>Daniel</span></h2>
         </Link>
       </div>

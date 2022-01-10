@@ -1,11 +1,10 @@
 import React from "react";
-import Engineering from "./Engineering";
-import Intro from "./Intro";
+import Engineering from "../components/Engineering";
+import Intro from "../components/Intro";
 
-import "../css/sticky.css";
-import DigitalArt from "./DigitalArt";
-import Reading from "./Reading";
-import Travel from "./Travel";
+import DigitalArt from "../components/DigitalArt";
+import Reading from "../components/Reading";
+import Travel from "../components/Travel";
 
 const Sticky: React.FC = (props) => {
   return (

@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/reading.css";
 
 const Reading: React.FC = (props) => {
   return (

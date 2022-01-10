@@ -1,7 +1,6 @@
 import React from "react";
-import "../css/posts.css";
-import PostsListItem from "./PostsListItem";
-import { posts, Post } from "../util/posts";
+import PostsListItem from "../../components/PostsListItem";
+import { posts, Post } from "../../util/posts";
 
 const Posts: React.FC = (props) => {
   return (

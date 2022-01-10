@@ -18,8 +18,22 @@
 
 .posts-list-item-card h4 {
   margin-top: 0;
+  color: blue;
+  cursor: pointer;
+}
+
+.posts-list-item-card h4:visited,
+.posts-list-item-card h4:active {
+  color: blueviolet;
 }
 
 .posts-list-item-card span {
   font-size: 0.8rem;
+  color: blue;
+  cursor: pointer;
+}
+
+.posts-list-item-card span:visited,
+.posts-list-item-card span:active {
+  color: blueviolet;
 }

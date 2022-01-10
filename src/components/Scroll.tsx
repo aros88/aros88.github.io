@@ -4,7 +4,6 @@ import Engineering from "./Engineering";
 import DigitalArt from "./DigitalArt";
 import Reading from "./Reading";
 import Travel from "./Travel";
-import "../css/scroll.css";
 
 const Scroll: React.FC = (props) => {
   const reveal = () => {

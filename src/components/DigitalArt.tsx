@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/art.css";
 
 const DigitalArt: React.FC = (props) => {
   return (

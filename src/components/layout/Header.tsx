@@ -1,26 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from 'next/link';
 
-import "../css/header.css";
-
-const Header: React.FC = (props) => {
+const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="header-title">
-        <Link to="/home">
+        <Link href="/">
           <h1>World of <span>Daniel</span></h1>
         </Link>
       </div>
       <nav>
         <ul>
           <li>
-            <Link to="/home">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <Link to="/posts">Posts</Link>
+            <Link href="/posts">Posts</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link href="/about">About</Link>
           </li>
         </ul>
       </nav>

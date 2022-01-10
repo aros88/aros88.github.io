@@ -21,13 +21,6 @@ export const posts: Post[] = [
     tags: ["bluetooth low energy", "machine learning", "online k-means clustering", "kalman filter", "sensor fusion", "web application", "postgresql", "service oriented architecture", "ruby on rails", "reactjs"],
     markdownFile: "proximity.md",
   },
-  // {
-  //   title: "Administrative System with REST API using Rails and React.js + Redux for the frontend",
-  //   description: "Administrative system for a textile company using a web oriented architecture with Ruby on Rails for the backend API and React.js with Redux for the frontend.",
-  //   date: "2018-01-12",
-  //   tags: ["ruby", "ruby on rails", "react.js", "redux", "jwt", "web application", "postgresql", "database triggers", "service oriented architecture"],
-  //   markdownFile: "tejidos.md",
-  // },
   {
     title: "Game of Briscola Developed in Android",
     description: "Android game based on the famous Italian card game.",

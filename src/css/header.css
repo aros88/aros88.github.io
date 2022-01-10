@@ -13,6 +13,10 @@ header h1 {
   color: white;
 }
 
+.header-title {
+  cursor: pointer;
+}
+
 .header-title span {
   color: lightslategray;
 }
