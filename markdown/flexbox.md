@@ -1201,7 +1201,7 @@ It is important to note that each item has a different value for the property, t
   </figure>
 </div>
 
-The default value for the property is 1, but as specified in [Figure 1](#firgure-1) the flex items will default to a size which will fit its content, and will not shrink any further even with a <code>**flex-shrink**</code> value of 1 or higher. This is because they come with a default value of <code>**min-width: auto**</code> which will wrap their content. By setting this property to <code>**min-width: 0**</code> the shrinking effect can be observed.
+The default value for the property is 1, but as specified in [Figure 1](#figure-1) the flex items will default to a size which will fit its content, and will not shrink any further even with a <code>**flex-shrink**</code> value of 1 or higher. This is because they come with a default value of <code>**min-width: auto**</code> which will wrap their content. By setting this property to <code>**min-width: 0**</code> the shrinking effect can be observed.
 
 <div id="flex-basis"></div>
 
