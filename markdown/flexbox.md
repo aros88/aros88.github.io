@@ -289,12 +289,6 @@ For example, given the following HTML code:
   &lt;/div&gt;
 </pre>
 
-<pre class="syntax-html">
-  &lt;div class="flex-container" id="flex-container"&gt;
-    &lt;!-- add html code --&gt;
-  &lt;/div&gt;
-</pre>
-
 To turn the **<code>div</code>** element with the class **<code>.flex-container</code>** into a flex container, the following CSS would have to be added:
 
 <pre class="prettyprint lang-css">
