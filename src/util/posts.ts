@@ -8,6 +8,13 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    title: "Understanding the CSS Grid",
+    description: "Detailed post to describe the CSS grid feature along with all its most important use cases.",
+    date: "2022-01-12",
+    tags: ["HTML5", "CSS", "grid", "web development"],
+    markdownFile: "css-grid.md"
+  },
+  {
     title: "Understanding CSS Flexbox",
     description: "Comprehensive post to try to understand the CSS flexbox feature and all its potential.",
     date: "2022-01-08",

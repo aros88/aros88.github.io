@@ -12,6 +12,7 @@ const MarkdownPost: React.FC<MarkdownPostProps> = (props : MarkdownPostProps) =>
 
   return (
     <>
+      <Link href="/posts">Back to Posts</Link>
       <article className="post">
         <ReactMarkdown rehypePlugins={[rehypeRaw]}>
           {markdownText}

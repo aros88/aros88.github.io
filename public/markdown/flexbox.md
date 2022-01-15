@@ -32,6 +32,7 @@
 
   .figure figcaption {
     margin: 0.5rem;
+    text-align: center;
   }
 
   .figure img {
@@ -283,6 +284,12 @@ To create a flex container all is needed is to add the <code>**display: flex**</
 For example, given the following HTML code:
 
 <pre class="prettyprint lang-html">
+  &lt;div class="flex-container" id="flex-container"&gt;
+    &lt;!-- add html code --&gt;
+  &lt;/div&gt;
+</pre>
+
+<pre class="syntax-html">
   &lt;div class="flex-container" id="flex-container"&gt;
     &lt;!-- add html code --&gt;
   &lt;/div&gt;
