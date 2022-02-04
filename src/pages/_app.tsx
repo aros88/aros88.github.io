@@ -10,12 +10,14 @@ import "../css/header.css";
 import "../css/intro.css";
 import "../css/post.css";
 import "../css/posts-list-item.css";
+import "../css/games-list-item.css";
 import "../css/reading.css";
 import "../css/scroll.css";
 import "../css/sticky.css";
 import "../css/travel.css";
 import "../css/app.css";
 import "../css/posts.css";
+import "../css/games.css";
 
 const MyApp = ({ Component, pageProps } : AppProps) => {
   return (

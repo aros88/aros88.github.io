@@ -1,0 +1,48 @@
+.games-list-item {
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.games-list-item:last-child {
+  border-bottom: none;
+}
+
+.games-list-item-card {
+  display: flex;
+  flex-direction: column;
+  color: lightslategray;
+  padding: 0em 0em;
+  /* border: 2px solid lightgray; */
+  /* border-bottom: 1px solid lightgrey; */
+  /* box-shadow: 12px 12px 2px 1px lightgray; */
+}
+
+.games-list-item-image {
+  cursor: pointer;
+  /* background-color: lightslategray; */
+}
+
+.games-list-item-image img {
+  object-fit: cover;
+  max-height: 10rem;
+  margin: 0 auto;
+  border-radius: 20%;
+}
+
+.games-list-item-content {
+  padding: 1.2rem;
+  padding-top: 0;
+}
+
+.games-list-item-card h4 {
+  color: blue;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.games-list-item-card span {
+  font-size: 0.8rem;
+  color: blue;
+  cursor: pointer;
+}
