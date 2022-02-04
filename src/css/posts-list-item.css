@@ -12,8 +12,25 @@
 }
 
 .posts-list-item-card {
+  display: flex;
   color: lightslategray;
   padding: 1em 0em;
+}
+
+.posts-list-item-image {
+  width: 40%;
+  cursor: pointer;
+}
+
+.posts-list-item-image img {
+  object-fit: cover;
+  max-height: 15rem;
+  margin: 0 auto;
+}
+
+.posts-list-item-content {
+  width: 50%;
+  padding-left: 1.2rem;
 }
 
 .posts-list-item-card h4 {

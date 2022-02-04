@@ -15,6 +15,7 @@ const Posts: React.FC = (props) => {
                 title={post.title}
                 description={post.description}
                 markdownFile={post.markdownFile}
+                image={post.image}
               />
             );
           })}
