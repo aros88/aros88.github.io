@@ -106,14 +106,16 @@ For any game related questions, or support requests, please contact me at <a hre
 
 <h1 style="margin-bottom: 0rem;">Available at:</h1>
 
-<div class="games__sumrunner__summary-badges-container">
+Coming soon...
+
+<!-- <div class="games__sumrunner__summary-badges-container">
   <a href="#" style="align-self: center;">
     <img src="/images/app-store-badge.png" />
   </a>
   <a href="#">
     <img src="/images/google-play-badge.png" />
   </a>
-</div>
+</div> -->
 
 <hr class="games__sumrunner__summary-hr" />
 <br />
