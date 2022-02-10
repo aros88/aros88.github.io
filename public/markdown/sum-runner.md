@@ -90,6 +90,20 @@ Hope you enjoy the game!
 
 <hr class="games__sumrunner__summary-hr" />
 
+<h1 style="margin-bottom: 0.5rem;">App Privacy</h1>
+
+The game does not collect any user related information.
+
+To learn more about it, please visit the <a href="https://docs.google.com/document/d/1OBDnXZXKtjPHJXE1qQt_4qd6slE0Ul0CwRQ3DKap-hg/edit?usp=sharing" target="_blank">Privacy Policy</a>.
+
+<hr class="games__sumrunner__summary-hr" />
+
+<h1 style="margin-bottom: 0.5rem;">Contact Information</h1>
+
+For any game related questions, or support requests, please contact me at <a href="mailto:planetdgames@gmail.com">planetdgames@gmail.com</a>.
+
+<hr class="games__sumrunner__summary-hr" />
+
 <h1 style="margin-bottom: 0rem;">Available at:</h1>
 
 <div class="games__sumrunner__summary-badges-container">
