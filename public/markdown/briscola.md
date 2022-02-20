@@ -2,7 +2,7 @@
 
 The repo for this project can be found at:
 
-1. [Briscola](https://github.com/danielRM88/briscola)
+1. [Briscola](https://github.com/aros88/briscola)
 
 ## Table of Contents
 - [Introduction](#introduction)
