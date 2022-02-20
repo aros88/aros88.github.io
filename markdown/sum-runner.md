@@ -106,16 +106,14 @@ For any game related questions, or support requests, please contact me at <a hre
 
 <h1 style="margin-bottom: 0rem;">Available at:</h1>
 
-Coming soon...
-
-<!-- <div class="games__sumrunner__summary-badges-container">
-  <a href="#" style="align-self: center;">
+<div class="games__sumrunner__summary-badges-container">
+  <a href="https://apps.apple.com/us/app/sum-runner/id1610649599" style="align-self: center;">
     <img src="/images/app-store-badge.png" />
   </a>
-  <a href="#">
+  <a href="https://play.google.com/store/apps/details?id=com.planetd.sumrunner">
     <img src="/images/google-play-badge.png" />
   </a>
-</div> -->
+</div>
 
 <hr class="games__sumrunner__summary-hr" />
 <br />
