@@ -4,10 +4,10 @@ I presented this project as my master's degree thesis. This page represents an o
 
 It is composed of 4 different github repositories:
 
-1. [BLE client](https://github.com/danielRM88/ble-client)
-2. [BLE server/beacon](https://github.com/danielRM88/ble-server)
-3. [Rails API](https://github.com/danielRM88/proximity-api)
-4. [Reactjs frontend](https://github.com/danielRM88/proximity-frontend)
+1. [BLE client](https://github.com/aros88/ble-client)
+2. [BLE server/beacon](https://github.com/aros88/ble-server)
+3. [Rails API](https://github.com/aros88/proximity-api)
+4. [Reactjs frontend](https://github.com/aros88/proximity-frontend)
 
 ## Table of Contents
 - [Introduction](#introduction)
